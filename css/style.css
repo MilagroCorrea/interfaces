@@ -1,0 +1,102 @@
+
+  body {
+
+    display: flex;
+    flex-wrap: wrap;
+    background-color:lemonchiffon;
+  }
+  
+  footer {
+    width: 90%;
+    text-align: center;
+    padding: 1em;
+    align-self: flex-end;
+  }
+
+  .main-left {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1200px;
+    background: #333;
+    padding: 40px;
+    justify-content: first baseline;
+  }
+ .myPaint {
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    
+    font-size: 90px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-right: 30px;
+  }
+  .main-left p {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+    font-size: 30px;
+    color: white;
+  }
+
+  span{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+    font-size: 30px;
+    color: white;
+
+  }
+  .main-left label {
+    color: #fff;
+   display: flex;
+   flex-wrap: wrap;
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-right: 10px;
+  }
+  
+  .main-left input[type="button"]{
+    
+    background: #fff;
+    border: none;
+    height: 30px;
+    padding: 0 15px;
+    font-size: 15px;
+    color: #000;
+    cursor: pointer;
+    margin: 5px 10px 5px 7px;
+    border-radius: 6px;
+  }
+  .main-left input[type="button"]:hover{
+    opacity: 0.6;
+    text-decoration: none;
+  }
+  .main-left input[type="color"]{
+    
+    background: #fff;
+    border: none;
+    height: 30px;
+    color: #000;
+    cursor: pointer;
+    margin: 5px 25px 5px 7px;
+  }
+
+  .main-left input[type="range"]{
+    
+    background: #fff;
+    border: none;
+    height: 30px;
+    padding: 0 15px;
+    font-size: 15px;
+    color: #000;
+    cursor: pointer;
+    margin: 5px 25px 5px 7px;
+  }
+  
+ 
+   
+  
+
+
+
